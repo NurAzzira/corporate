@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #1abc9c;
+  background-image: url("banner.jpg");
+  color: yellow;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #E0B589;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#F7CAC9;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #955251;
+  color: white;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #EFE1CE;
+  padding: 20px;
+}
+
+/* Image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #E0B589;
+}
+    
+
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Welcome to Mossy Forest</h1>
+  <p>A Mythical Forest in Pahang.</p>
+  
+</div>
+
+<div class="topnav">
+  <a class="active" href="#">Home</a>
+  <a href="#">Mossy Forest</a>
+  <a href="#">Price</a>
+  <a href="#">Booking</a>
+  <a href="#">Gallery</a>
+  <a href="#">About Us</a>
+</div>
+
+<div class="row">
+  
+  <div class="main">
+    <h2>E-Portfolio</h2>
+    
+  </div>
+</div>
+
+
+<div class="footer">
+        <p>
+            <sub>
+                Copyright &#169 2021 | Mossy Forest in Pahang<br>
+                Recommended browser viewed through Chrome 8.7 or higher.<br>
+                This website is best viewed at screen resolution of 1366 x 768 pixels or higher.<br>
+                All Rights Reserved.
+            </sub>
+        </p>
+    </section>
+</div>
+
+</body>
+</html>
